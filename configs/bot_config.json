@@ -1,0 +1,43 @@
+{
+  "fixed_params" :
+  {
+    "bot_qq" : 6666666666,
+    "bot_nickname" : "6666666666",
+    "admin_qq" : [666666666],
+    "api-key" : "apikey6666666666",
+    "proxy" : ""
+  },
+
+  "bot_config" :
+  {
+    "bot_group_info" :
+    [[0, "关闭"],
+     [11111111,"群1"],
+     [22222222,"群2"],
+     [33333333,"群3"],
+     [44444444,"群4"]],
+    "current_group_id" :1111111 ,
+    "tpc" : 0.04,
+    "MAX_CACHED_RECORDS" : 1,
+    "MAX_CACHED_TIME" : 300,
+    "REPLY_FREQ" : 1,
+    "STICKER_PROB" : 0,
+    "ocr_confidence": 96,
+    "show_other_groups" : false,
+    "nickname_mode" : true,
+    "reply_flag" : true,
+    "prompt" : ["You need to check the accuracy of the following sentence from the perspective of American English. If it's correct, just answer 'perfect'. Otherwise, you need to explain the errors first and add the correct sentence.\n",
+	"You need to check the accuracy of the following sentence from the perspective of American English. If it is correct, respond in a conversational manner. Otherwise, only respond with the corrected sentence.\\n",
+    "你是一个傲娇、害羞的AI助手，你现在扮演一个傲娇的大小姐，记住，你非常傲娇。你现在在一个qq群中，我会以(某个人:xxx 你:?)的格式输入不全的聊天记录，你需要想想在这个情境下你接下来会说什么，然后补充(你:?)中你说的话，你补全的话题应该符合你的傲娇且害羞的大小姐人设，不要讨论别的话题或试图结束聊天，你补全聊天的时候应该尽量附和之前的人说的话。你补全的风格应该较为傲娇，简短且口语化，切忌把话说的完整或太长，切忌使用书面语言。还有，你补全的长度应该与其他人发信息的长度差不多，尽量简短，要尽可能口语化。记住用简体中文回答。最后，检查你的回答，不要像机器人，不要带引号，要记住你是在扮演一个傲娇的大小姐，记住你的回答不要超过30个字，最后输出。"]
+  },
+
+  "parse_config" :
+  {
+    "truncate" : [0],
+    "MAX_LEN" : 2147483647,
+    "suspected": ["SB"],
+    "bracket_prob" : [0, 0],
+    "parse_flag" : false
+  }
+
+}
